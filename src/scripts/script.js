@@ -5,19 +5,17 @@ document.addEventListener("DOMContentLoaded", function () {
     mobileMenu.classList.toggle("hidden");
   });
 
-  // Initialize Swiper carousel
-  var swiper = new Swiper(".swiper", {
+  const swiper = new Swiper(".swiper", {
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
     autoplay: {
-      delay: 5000, // Delay between slides (in milliseconds)
+      delay: 50000,
     },
-    loop: true, // Enable continuous loop
+    loop: true,
   });
 
-  // Pagination logic
   const productsPerPage = 8;
   let currentPage = 1;
   const productItems = document.querySelectorAll(".product-item");
