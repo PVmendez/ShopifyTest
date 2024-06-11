@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.text-main {
+  color: #7AA65A;
+}
+
+.bg-main {
+  background-color: #7AA65A;
+}
+
+.swiper-slide img {
+  height: auto;
+}
+
+.carousel-bg {
+  background-image: url("../assets/images/carousel-bg.svg");
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 0;
+}
+
+nav a.active {
+  border-bottom: 2px solid #7aa65a;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 45px;
+  height: 30px;
+  position: relative;
+  margin-top: 0;
+}
+
+.swiper-button-next {
+  color: #fff;
+  background-color: #7aa65a;
+  
+}
+
+.swiper-button-prev {
+  color: #7aa65a;
+  border: #7aa65a 1px solid;
+
+}
+
+.swiper-button-next:after {
+  content: url("../assets/images/arrow-next.svg");
+  font-size: 2rem;
+}
+
+.swiper-button-prev:after {
+  content: url("../assets/images/arrow-prev.svg");
+  font-size: 1rem;
+}
+
+#cart-modal {
+  transition: opacity 0.3s ease;
+}
+#cart-modal.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.remove-item {
+  background-color: red;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.remove-item:hover {
+  background-color: darkred;
+}
