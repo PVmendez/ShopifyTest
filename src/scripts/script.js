@@ -58,7 +58,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Initialize the first page
   showPage(currentPage);
   updatePaginationButtons();
 });

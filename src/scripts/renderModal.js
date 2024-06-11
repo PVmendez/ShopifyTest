@@ -33,8 +33,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const existingProductIndex = cart.findIndex(
       (item) => item.name === product.name
     );
-    if (existingProductIndex > -1) cart[existingProductIndex].quantity += 1;
-    else cart.push({ ...product, quantity: 1 });
+    if (existingProductIndex > -1) {
+      cart[existingProductIndex].quantity += 1;
+    } else cart.push({ ...product, quantity: 1 });
 
     updateCart();
     cartModal.classList.remove("hidden");

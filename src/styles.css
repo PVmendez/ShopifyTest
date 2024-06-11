@@ -9,11 +9,11 @@ body {
 }
 
 .text-main {
-  color: #7AA65A;
+  color: #7aa65a;
 }
 
 .bg-main {
-  background-color: #7AA65A;
+  background-color: #7aa65a;
 }
 
 .swiper-slide img {
@@ -42,13 +42,11 @@ nav a.active {
 .swiper-button-next {
   color: #fff;
   background-color: #7aa65a;
-  
 }
 
 .swiper-button-prev {
   color: #7aa65a;
   border: #7aa65a 1px solid;
-
 }
 
 .swiper-button-next:after {
