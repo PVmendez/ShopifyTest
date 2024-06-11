@@ -37,7 +37,7 @@ function createProductItem(product) {
   const buyButton = document.createElement("a");
   buyButton.href = "#";
   buyButton.className =
-    "bg-green-500 text-white px-4 py-2 rounded-full hover:bg-green-600 transition duration-300";
+    "bg-main text-white px-4 py-2 rounded-full hover:bg-green-600 transition duration-300";
   buyButton.textContent = "BUY NOW";
 
   priceDiv.appendChild(priceP);

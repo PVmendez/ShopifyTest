@@ -56,7 +56,7 @@
           <img src="../assets/images/shop-logo.svg" alt="Shopping Bag" />
           <div
             id="isBuyingIndicator"
-            class="absolute top-3 left-2 h-2 w-2 border-2 border-black bg-green-500 rounded-full"
+            class="absolute top-3 left-2 h-2 w-2 border-2 border-black bg-main rounded-full"
           ></div>
         </a>
       </div>
@@ -88,13 +88,60 @@
                 </div>
                 <div class="md:order-1">
                   <h1
-                    class="text-3xl md:text-6xl font-bold text-green-500 mb-4 md:text-left text-center"
+                    class="text-3xl md:text-6xl font-bold text-main mb-4 md:text-left text-center"
                   >
                     Lorem ipsum dolor sit amet
                   </h1>
-                  <p class="text-green-500 mb-6 hidden md:block">
-                    Nunc porttitor tortor metus, nec sagittis lectus accumsan quis. Aenean
-                    euismod mollis tempor.
+                  <p class="text-main mb-6 hidden md:block">
+                    Nunc porttitor tortor metus, nec sagittis lectus accumsan
+                    quis. Aenean euismod mollis tempor.
+                  </p>
+                  <div class="space-y-4">
+                    <div
+                      class="space-y-4 md:space-y-0 md:space-x-4 md:flex md:flex-row flex-col md:justify-start lg:m-0 md:mb-16 md:ml-0 md:mr-0 ml-16 mr-16"
+                    >
+                      <a
+                        href="#"
+                        class="text-center md:text-left bg-main text-white px-4 py-2 lg:px-12 lg:py-3 rounded-md hover:bg-green-600 transition duration-300 block md:inline-block"
+                      >
+                        SHOP NOW
+                        <span class="ml-2">&gt;</span>
+                      </a>
+                      <a
+                        href="#"
+                        class="border text-center md:text-left md:border-main md:text-main px-4 py-2 lg:px-12 lg:py-3 rounded-md hover:bg-main hover:text-white transition duration-300 block md:inline-block"
+                        >TAKE THE QUIZ <span class="ml-2">&gt;</span></a
+                      >
+                    </div>
+                    <div class="flex justify-center md:justify-start mt-4">
+                      <div class="swiper-button-prev rounded-full"></div>
+                      <div class="swiper-button-next rounded-full ml-12"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Repeat this <div> block for more slides -->
+            <div class="swiper-slide">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="md:order-2">
+                  <img
+                    src="../assets/images/carousel-hero-2.svg"
+                    alt="Model"
+                    class="w-3/4 mx-auto rounded-lg shadow-lg"
+                  />
+                </div>
+                <div class="md:order-1">
+                  <h1
+                    class="text-3xl md:text-6xl font-bold text-main mb-4 md:text-left text-center"
+                  >
+                    Sunt, eligendi a!
+                  </h1>
+                  <p class="text-main mb-6 hidden md:block">
+                    Debitis optio veniam reprehenderit quasi laboriosam ipsum
+                    voluptate consequuntur consectetur earum quas ipsam
+                    sapiente. Sunt, eligendi a!
                   </p>
                   <div class="space-y-4 md:space-y-0">
                     <div
@@ -102,16 +149,16 @@
                     >
                       <a
                         href="#"
-                        class="text-center md:text-left bg-green-500 text-white px-4 py-2 lg:px-12 lg:py-3 rounded-md hover:bg-green-600 transition duration-300 block md:inline-block"
+                        class="text-center md:text-left bg-main text-white px-4 py-2 lg:px-12 lg:py-3 rounded-md hover:bg-green-600 transition duration-300 block md:inline-block"
                       >
                         SHOP NOW
                         <span class="ml-2">&gt;</span>
                       </a>
                       <a
                         href="#"
-                        class="border text-center md:text-left md:border-green-500 md:text-green-500 px-4 py-2 lg:px-12 lg:py-3 rounded-md hover:bg-green-500 hover:text-white transition duration-300 block md:inline-block"
-                        >TAKE THE QUIZ <span class="ml-2">&gt;</span
-                      ></a>
+                        class="border text-center md:text-left md:border-main md:text-main px-4 py-2 lg:px-12 lg:py-3 rounded-md hover:bg-main hover:text-white transition duration-300 block md:inline-block"
+                        >TAKE THE QUIZ <span class="ml-2">&gt;</span></a
+                      >
                     </div>
                     <div class="flex justify-center md:justify-start mt-4">
                       <div class="swiper-navigation flex space-x-2">
@@ -123,136 +170,108 @@
                 </div>
               </div>
             </div>
-            
-            <!-- Repeat this <div> block for more slides -->
-              <div class="swiper-slide">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                  <div class="md:order-2">
-                    <img
-                      src="../assets/images/carousel-hero-2.svg"
-                      alt="Model"
-                      class="w-3/4 mx-auto rounded-lg shadow-lg"
-                    />
-                  </div>
-                  <div class="md:order-1">
-                    <h1
-                      class="text-3xl md:text-6xl font-bold text-green-500 mb-4 md:text-left text-center"
+
+            <div class="swiper-slide">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="md:order-2">
+                  <img
+                    src="../assets/images/carousel-hero-3.svg"
+                    alt="Model"
+                    class="w-3/4 mx-auto rounded-lg shadow-lg"
+                  />
+                </div>
+                <div class="md:order-1">
+                  <h1
+                    class="text-3xl md:text-6xl font-bold text-main mb-4 md:text-left text-center"
+                  >
+                    Consectetur adipisicing elit
+                  </h1>
+                  <p class="text-main mb-6 hidden md:block">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Modi cumque magnam incidunt nesciunt hic consequuntur quia
+                    cum placeat distinctio veritatis consequatur repudiandae
+                    optio voluptatem, cupiditate, est corrupti soluta nemo ipsa.
+                  </p>
+                  <div class="space-y-4 md:space-y-0">
+                    <div
+                      class="space-y-4 md:space-y-0 md:space-x-4 md:flex md:flex-row flex-col md:justify-start lg:m-0 md:mb-16 md:ml-0 md:mr-0 ml-16 mr-16"
                     >
-                    Sunt, eligendi a!
-                    </h1>
-                    <p class="text-green-500 mb-6 hidden md:block">
-                      Debitis optio veniam reprehenderit quasi laboriosam ipsum voluptate consequuntur consectetur earum quas ipsam sapiente. Sunt, eligendi a!
-                    </p>
-                    <div class="space-y-4 md:space-y-0">
-                      <div
-                        class="space-y-4 md:space-y-0 md:space-x-4 md:flex md:flex-row flex-col md:justify-start lg:m-0 md:mb-16 md:ml-0 md:mr-0 ml-16 mr-16"
+                      <a
+                        href="#"
+                        class="text-center md:text-left bg-main text-white px-4 py-2 lg:px-12 lg:py-3 rounded-md hover:bg-green-600 transition duration-300 block md:inline-block"
                       >
-                        <a
-                          href="#"
-                          class="text-center md:text-left bg-green-500 text-white px-4 py-2 lg:px-12 lg:py-3 rounded-md hover:bg-green-600 transition duration-300 block md:inline-block"
-                        >
-                          SHOP NOW
-                          <span class="ml-2">&gt;</span>
-                        </a>
-                        <a
-                          href="#"
-                          class="border text-center md:text-left md:border-green-500 md:text-green-500 px-4 py-2 lg:px-12 lg:py-3 rounded-md hover:bg-green-500 hover:text-white transition duration-300 block md:inline-block"
-                          >TAKE THE QUIZ <span class="ml-2">&gt;</span
-                        ></a>
-                      </div>
-                      <div class="flex justify-center md:justify-start mt-4">
-                        <div class="swiper-navigation flex space-x-2">
-                          <div class="swiper-button-next rounded-full"></div>
-                          <div class="swiper-button-prev rounded-full"></div>
-                        </div>
+                        SHOP NOW
+                        <span class="ml-2">&gt;</span>
+                      </a>
+                      <a
+                        href="#"
+                        class="border text-center md:text-left md:border-main md:text-main px-4 py-2 lg:px-12 lg:py-3 rounded-md hover:bg-main hover:text-white transition duration-300 block md:inline-block"
+                        >TAKE THE QUIZ <span class="ml-2">&gt;</span></a
+                      >
+                    </div>
+                    <div class="flex justify-center md:justify-start mt-4">
+                      <div class="swiper-navigation flex space-x-2">
+                        <div class="swiper-button-next rounded-full"></div>
+                        <div class="swiper-button-prev rounded-full"></div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              
-              <div class="swiper-slide">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                  <div class="md:order-2">
-                    <img
-                      src="../assets/images/carousel-hero-3.svg"
-                      alt="Model"
-                      class="w-3/4 mx-auto rounded-lg shadow-lg"
-                    />
-                  </div>
-                  <div class="md:order-1">
-                    <h1
-                      class="text-3xl md:text-6xl font-bold text-green-500 mb-4 md:text-left text-center"
-                    >
-                      Consectetur adipisicing elit
-                    </h1>
-                    <p class="text-green-500 mb-6 hidden md:block">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cumque magnam incidunt nesciunt hic consequuntur quia cum placeat distinctio veritatis consequatur repudiandae optio voluptatem, cupiditate, est corrupti soluta nemo ipsa.
-                    </p>
-                    <div class="space-y-4 md:space-y-0">
-                      <div
-                        class="space-y-4 md:space-y-0 md:space-x-4 md:flex md:flex-row flex-col md:justify-start lg:m-0 md:mb-16 md:ml-0 md:mr-0 ml-16 mr-16"
-                      >
-                        <a
-                          href="#"
-                          class="text-center md:text-left bg-green-500 text-white px-4 py-2 lg:px-12 lg:py-3 rounded-md hover:bg-green-600 transition duration-300 block md:inline-block"
-                        >
-                          SHOP NOW
-                          <span class="ml-2">&gt;</span>
-                        </a>
-                        <a
-                          href="#"
-                          class="border text-center md:text-left md:border-green-500 md:text-green-500 px-4 py-2 lg:px-12 lg:py-3 rounded-md hover:bg-green-500 hover:text-white transition duration-300 block md:inline-block"
-                          >TAKE THE QUIZ <span class="ml-2">&gt;</span
-                        ></a>
-                      </div>
-                      <div class="flex justify-center md:justify-start mt-4">
-                        <div class="swiper-navigation flex space-x-2">
-                          <div class="swiper-button-next rounded-full"></div>
-                          <div class="swiper-button-prev rounded-full"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-          <!-- Add Pagination and Navigation if needed -->
+            </div>
+
+            <!-- Add Pagination and Navigation if needed -->
+          </div>
         </div>
       </div>
     </div>
-
     <!-- Featured Collection -->
     <div id="product-container" class="container mx-auto px-4 py-8">
-      <h2 class="text-center text-3xl font-semibold text-green-500 mb-6">
-          Featured Collection
+      <h2 class="text-center text-3xl font-semibold text-main mb-6">
+        Featured Collection
       </h2>
-      <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8"></div>
+      <div
+        id="product-grid"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8"
+      ></div>
       <div class="flex justify-center pagination-buttons text-center mt-8">
-          <button id="prev-page" class="border-2 border-green-500 w-12 h-8 rounded-full flex justify-center items-center mr-2">
-              <img src="../assets/images/arrow-prev.svg" alt="Previous Page">
-          </button>
-          <button id="next-page" class="bg-green-500 w-12 h-8 rounded-full flex justify-center items-center">
-              <img src="../assets/images/arrow-next.svg" alt="Next Page">
-          </button>
-      </div>
-  </div>
-  <div id="cart-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
-    <div class="bg-white p-6 rounded-lg shadow-lg w-96">
-      <h2 class="text-2xl font-semibold mb-4">My Cart</h2>
-      <div id="cart-items" class="mb-4">
-        <!-- Cart items will be dynamically added here -->
-      </div>
-      <div class="flex justify-between items-center mb-4">
-        <span class="text-xl font-semibold">Total:</span>
-        <span id="cart-total" class="text-xl font-semibold">$0.00</span>
-      </div>
-      <div class="flex justify-end">
-        <button id="close-modal" class="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 transition duration-300">Close</button>
+        <button
+          id="prev-page"
+          class="border-2 border-main w-12 h-8 rounded-full flex justify-center items-center mr-2"
+        >
+          <img src="../assets/images/arrow-prev.svg" alt="Previous Page" />
+        </button>
+        <button
+          id="next-page"
+          class="bg-main w-12 h-8 rounded-full flex justify-center items-center"
+        >
+          <img src="../assets/images/arrow-next.svg" alt="Next Page" />
+        </button>
       </div>
     </div>
-  </div>
-  
+    <div
+      id="cart-modal"
+      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden"
+    >
+      <div class="bg-white p-6 rounded-lg shadow-lg w-96">
+        <h2 class="text-2xl font-semibold mb-4">My Cart</h2>
+        <div id="cart-items" class="mb-4">
+          <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="flex justify-between items-center mb-4">
+          <span class="text-xl font-semibold">Total:</span>
+          <span id="cart-total" class="text-xl font-semibold">$0.00</span>
+        </div>
+        <div class="flex justify-end">
+          <button
+            id="close-modal"
+            class="bg-main text-white px-4 py-2 rounded-md hover:bg-green-600 transition duration-300"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="./scripts/script.js"></script>

@@ -8,6 +8,14 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.text-main {
+  color: #7AA65A;
+}
+
+.bg-main {
+  background-color: #7AA65A;
+}
+
 .swiper-slide img {
   height: auto;
 }
@@ -34,13 +42,13 @@ nav a.active {
 .swiper-button-next {
   color: #fff;
   background-color: #7aa65a;
-  left: 60px;
+  
 }
 
 .swiper-button-prev {
   color: #7aa65a;
   border: #7aa65a 1px solid;
-  left: -45px;
+
 }
 
 .swiper-button-next:after {
